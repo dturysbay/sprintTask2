@@ -6,7 +6,8 @@ header{
     background-color: #4F76A1;
 }
 .center{
-    margin-left: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .header-inside{
     display: flex;
@@ -42,7 +43,7 @@ input:active{
 /* -------> MAIN <------- */
 main{
     background-color: #E8EAED;
-    height: 100vh;
+    height: 100%;
 }
 
 /* -------> MAIN-LEFT-COL <-------*/
@@ -53,17 +54,21 @@ ul{
 }
 ul li{
     color: #9DA3AE;
-    margin-bottom: 5px;
+}
+.nav-bar > ul li{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #9DA3AE;
 }
 .main-inside{
     padding-top: 30px;
     display: flex;
-    /* justify-content: space-evenly; */
+    padding-bottom: 50px;
 }
 
 /* MAIN SECOND COL */
 .main-second-col{
-    margin-left: 120px;
+    margin-left: 90px;
    
 }
 .avatar{
@@ -72,10 +77,10 @@ ul li{
     border-radius: 4px;
 }
 .avatar > img{
-    width: 300px;
+    /* width: 300px; */
+    height: 200px;
 }
 .edit-btn{
-    
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -90,7 +95,7 @@ ul li{
     color: #9DA3AE;
 }
 .friends{
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: white;
     padding: 10px;
     border-radius: 4px;
@@ -127,4 +132,125 @@ ul li{
 
 .friend-name{
     text-align: center;
+}
+
+/* MAIN THIRD COL */
+.main-third-col{
+    margin-left: 10px;
+    width: auto;
+}
+.general-info{
+    width: inherit;
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+}
+.general-info > .first-row{
+    border-bottom: 1px solid #9DA3AE;
+}
+.first-row > .think{
+    margin-bottom: 15px;
+    color: #9DA3AE;
+    margin-top: 10px;
+}
+.name-and-status{
+    display: flex;
+    justify-content: space-between;
+}
+.name-and-status > .name{
+    color: black;
+    font-size: 18px;
+}
+.name-and-status > .status{
+    color: #9DA3AE;
+}
+.second-row{
+    display: flex;
+    padding: 15px 0;
+    border-bottom: 1px solid #9DA3AE;
+}
+.second-row > ul li{
+    margin-bottom: 3px;
+}
+ul#descr li{
+    color: #324766!important;
+    margin-left: 20px;
+}
+.third-row{
+    display: flex;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 5px;
+    padding: 5px;
+}
+.box > .number{
+    font-size: 20px;
+    color: #4F76A1;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.box > .info{
+    color: #9DA3AE;
+    text-align: center;
+}
+
+/* MY PHOTOS */
+.my-photos{
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+.my-photos > .title{
+    margin: 5px;
+}
+.my-photos > .title > span{
+    color: #9DA3AE;
+    font-size: 18px;
+}
+.photos > img{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.news{
+    margin-top: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+}
+.author{
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+.author-info > .name{
+    font-size: 20px;
+    color: #4F76A1;
+    margin-bottom: 5px;
+}
+.author-info > .date{
+    color: #9DA3AE;
+    font-size: 16px;
+}
+.author-logo > img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.news-descr{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #9DA3AE;
+}
+/* Responsive screen */
+@media screen and (max-width: 1000px) {
+    .center {
+      margin-left: 50px;
+    }
 }
