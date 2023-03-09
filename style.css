@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+}
+/* -------> HEADER <------- */
+header{
+    background-color: #4F76A1;
+}
+.center{
+    margin-left: 300px;
+}
+.header-inside{
+    display: flex;
+    padding: 10px 0;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+.search-bar{
+    margin-left: 180px;
+    width: 200px;
+    background-color: #324766;
+    border-radius: 30px;
+}
+.search-button{
+    background-color: transparent;
+    border: none;
+    color: gray;
+    position: relative;
+    left: 10px;
+}
+.search-input{
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+}
+input:active{
+    border: transparent;
+}
+
+/* -------> MAIN <------- */
+main{
+    background-color: #E8EAED;
+    height: 100vh;
+}
+
+/* -------> MAIN-LEFT-COL <-------*/
+ul{
+    list-style: none;
+    padding: 0px;
+    margin-right: 20px;
+}
+ul li{
+    color: #9DA3AE;
+    margin-bottom: 5px;
+}
+.main-inside{
+    padding-top: 30px;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+/* MAIN SECOND COL */
+.main-second-col{
+    margin-left: 120px;
+   
+}
+.avatar{
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+.avatar > img{
+    width: 300px;
+}
+.edit-btn{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.edit-btn > button{
+    font-size: 15px;
+    width: 100%;
+    border: transparent;
+    background-color: #E8EAED;
+    border-radius: 4px;
+    padding: 8px;
+    color: #9DA3AE;
+}
+.friends{
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    width: 300px;
+    color: #9DA3AE;
+    font-size: 14px;
+}
+
+.friends > p > span{
+    font-size: 18px;
+}
+
+.friends-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.friend{
+    width: 60px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.friend-avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-bottom: 5px;
+}
+
+.friend-name{
+    text-align: center;
+}
