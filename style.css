@@ -178,6 +178,7 @@ ul#descr li{
 }
 .third-row{
     display: flex;
+    justify-content: space-evenly;
 }
 .box{
     display: flex;
@@ -248,6 +249,183 @@ ul#descr li{
     font-size: 16px;
     color: #9DA3AE;
 }
+
+/* SECOND PAGE */
+/* HEADER */
+
+.main-second-col > .header {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F8FD;
+    padding: 10px;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px solid #9DA3AE;
+}
+.main-second-col > .header > .left-col{
+    display: flex;
+}
+.main-second-col > .header > .left-col > .creds{
+    display: flex;
+    padding: 5px;
+}
+.main-second-col > .header > .left-col>.creds > .name{
+    font-size: 14px;
+    margin-right: 5px;
+}
+.main-second-col > .header > .left-col > .creds > .number{
+    font-size: 14px;
+    color: gray;
+}
+.main-second-col > .header > .right-col > button{
+    padding: 5px 12px;
+    background-color: #4F76A1;
+    color: #ffffff;
+    border: transparent;
+    border-radius: 4px;
+}
+.main-second-col > .search-friend{
+    padding:10px;
+    border-bottom: 1px solid #9DA3AE;
+    background-color: #ffffff;
+}
+.main-second-col > .search-friend > #input{
+    padding: 5px;
+    width: 90%;
+    border: transparent;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.main-second-col > .friends-list {
+    width: 620px;
+    margin: 0;
+    background-color: #ffffff;
+}
+.main-second-col > .friends-list > .friend-info{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #9DA3AE;
+    padding: 10px;
+}
+.main-second-col > .friends-list > .friend-info > .info{
+    display: flex;
+    align-items: center;
+}
+.main-second-col > .friends-list > .friend-info > .info > .general{
+    margin-left: 20px;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-second-col > .friends-list > .friend-info > .info > img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.info > .general > .name{
+    font-size: 16px;
+    font-weight: bold;
+    color: #2A76B0;
+}
+
+.info > .general > .work-info{
+    font-size: 12px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.info > .general > .write-msg{
+    font-size: 12px;
+    font-weight: lighter;
+    color: #608DB4;
+}
+
+button.btn-dot {
+    border: 2px solid #9fa2a4;
+    height: 18px;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: transparent ;
+    color: #9DA3AE;
+}
+  
+button.btn-dot > .dots {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* The Arial font appears to have "square" dots */
+    font-size: 36px;
+    line-height: 0; 
+    margin-top: -10px;
+    letter-spacing: -2px; 
+}
+
+/* MAIN THIRD COL */
+#list > ul{
+    margin: 0;
+    padding: 10px 0;
+}
+#list > ul li{
+    color: #2A76B0;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+#list{
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+#list > ul li:hover{
+    background-color: #EDEDFC;
+    color: black;
+}
+.possible-friends{
+    margin-top: 10px;
+    border-radius: 4px;
+    width: 300px;
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+.possible-friends > p {
+    margin-left: 10px;
+    font-size: 16px;
+    color: gray;
+}
+.possible-friends-list{
+    margin-left: 20px;
+}
+.possible-friend-info{
+    /* padding: 10px; */
+    display: flex;
+    align-items: center;
+}
+.possible-friend-info > .general > .name{
+    font-size: 16px;
+    font-weight: lighter;
+    color: #2A76B0;
+    margin-bottom: 5px;
+}
+.possible-friend-info > .general > .info{
+    font-size: 16px;
+    font-weight: lighter;
+    color: #9fa2a4;
+    margin-bottom: 5px;
+}
+.possible-friend-info > .general > .add{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #2A76B0;
+    margin-bottom: 5px;
+}
+.possible-friend-info > img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 10px 10px 0 0;
+}
+
 /* Responsive screen */
 @media screen and (max-width: 1000px) {
     .center {
